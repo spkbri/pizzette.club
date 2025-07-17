@@ -1,0 +1,65 @@
+body {
+  background: #F2C457 url('background.svg') repeat center center;
+  color: #5B366B;
+  font-family: 'Nunito', 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #E6B440;
+  padding: 2em 0 1em 0;
+  border-bottom: 3px solid #9672B0;
+}
+h1 {
+  color: #ffffff;
+  margin-bottom: 0.2em;
+}
+.result-box {
+  background: #fff;
+  border: 2px dashed #9672B0;
+  border-radius: 12px;
+  margin: 2em auto;
+  padding: 2em;
+  width: 80%;
+  max-width: 500px;
+  min-height: 100px;
+  font-size: 1.2em;
+  color: #5B366B;
+}
+button#spin-btn {
+  background: #9672B0;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 1em 2em;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px #9672B033;
+}
+button#spin-btn:hover {
+  background: #5B366B;
+}
+
+/* Palette di riferimento:
+   .Monicals-Pizza-Scheme-1-hex { color: #B5101B; }
+   .Monicals-Pizza-Scheme-2-hex { color: #9672B0; }
+   .Monicals-Pizza-Scheme-3-hex { color: #5B366B; }
+   .Monicals-Pizza-Scheme-4-hex { color: #E6B440; }
+   .Monicals-Pizza-Scheme-5-hex { color: #F2C457; }
+*/
+
+/* Esempio di classe per pesi e stili diversi di Nunito */
+.nunito-bold {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.nunito-light {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+} 
